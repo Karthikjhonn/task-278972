@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="color-scheme" content="light">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>karthikTask#278278</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons  -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body>
+    <!-- header  -->
+    <header>
+        <div id="logo">
+            <img src="images/tasklogo.png" alt="logo">
+        </div>
+        <nav>
+            <ul id="navgation">
+                <li><a href="#about">About</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#figma">Figma</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="cart-icon">
+                    <box-icon name='moon' type='solid' color='#ffffff' onclick="dark()"></box-icon>
+                    <box-icon type='solid' name='cart-add' color='#ffffff'></box-icon>
+                </div>
+            </ul>
+        </nav>
+        <div id="menu-icon" onclick="ismenuactive()"><box-icon name='menu-alt-right' color='#ececec'></box-icon></div>
+    </header>
+    <!-- hero section  -->
+    <section id="hero">
+        <img src="images/heroimg.png" alt="cover page" id="largeheroimg">
+        <img src="images/herosmall.png" alt="cover page" id="smallheroimg">
+    </section>
+    <!-- About section  -->
+    <section id="about" class="section-p">
+        <h1 class="section-heading"><span>a</span>bout</h1>
+        <div class="aboutus-content">
+            <p>
+                Welcome to GO Pro, where timekeeping meets elegance. We are passionate about crafting exquisite
+                timepieces that embody precision, style, and sophistication. As a distinguished watch brand, we strive
+                to create timeless pieces that transcend fashion trends and become cherished heirlooms.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ipsa omnis, eaque explicabo officia eum
+                nobis odit dignissimos minima vitae ea nulla alias unde maiores aliquam quibusdam consectetur inventore,
+                repudiandae magni sed at! Voluptatibus autem vel magni, velit quam porro eius, aliquam harum molestiae
+                aliquid culpa aperiam cumque qui quaerat. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem minima modi, blanditiis voluptates
+                quibusdam nihil beatae hic aliquid fugiat eum numquam vero quos aliquam deserunt quo delectus rerum
+                commodi! Voluptatibus ullam mollitia aliquid odit officia, magnam nam praesentium quia tenetur
+                laboriosam autem debitis recusandae nostrum. Aspernatur laborum eos rerum in, aliquam harum sit,
+                cupiditate deserunt doloremque, excepturi qui repellat. Quisquam ex inventore, autem laborum repudiandae
+                quos veniam quaerat corporis, eligendi tempore vitae beatae. Quia similique veritatis animi amet fugiat
+                cupiditate.<img src="images/aboutimg.png" alt="aboutsection image"> Amet consectetur adipisicing elit.
+                Autem minima modi, blanditiis voluptates quibusdam nihil beatae hic aliquid fugiat eum numquam vero quos
+                aliquam deserunt quo delectus rerum commodi! Voluptatibus ullam mollitia aliquid odit officia, magnam
+            </p>
+            <p>Thank you for choosing Go Pro as your trusted companion in timekeeping. We invite you to explore our
+                collection, discover the artistry behind each watch, and experience the essence of elegance. Embrace the
+                beauty of time with Go Pro.</p>
+        </div>
+    </section>
+    <section id="collection" class="section-p">
+        <h1 class="section-heading"><span>c</span>ollection</h1>
+        <div class="card-container">
+            <!-- item -1  -->
+            <div class="card-box">
+                <img src="images/collectionimg1.png" alt="collections image">
+                <div class="card-small-box">
+                    <div class="flex">
+                        <h5>MIX452 Digital Watch</h5>
+                        <small>Super sale </small>
+                    </div>
+                    <div class="card-price">
+                        <box-icon name='rupee'></box-icon>
+                        <h6><del>5,536</del></h6>
+                        <h6>| 3,999</h6>
+                    </div>
+                </div>
+                <div class="card-offer">
+                    <b>Flat 35% off</b>
+                </div>
+
+            </div>
+            <!-- item-2  -->
+            <div class="card-box">
+                <img src="images/collectionimg2.png" alt="collections image">
+                <div class="card-small-box">
+                    <div class="flex">
+                        <h5>MIX452 Digital Watch</h5>
+                        <small>Super sale </small>
+                    </div>
+                    <div class="card-price">
+                        <box-icon name='rupee'></box-icon>
+                        <h6><del>5,536</del></h6>
+                        <h6>| 3,999</h6>
+                    </div>
+                </div>
+                <div class="card-offer">
+                    <b>Flat 35% off</b>
+                </div>
+            </div>
+            <!-- item-3  -->
+            <div class="card-box">
+                <img src="images/collectionimg3.png" alt="collections image">
+                <div class="card-small-box">
+                    <div class="flex">
+                        <h5>MIX452 Digital Watch</h5>
+                        <small>Super sale </small>
+                    </div>
+                    <div class="card-price">
+                        <box-icon name='rupee'></box-icon>
+                        <h6><del>5,536</del></h6>
+                        <h6>| 3,999</h6>
+                    </div>
+                </div>
+                <div class="card-offer">
+                    <b>Flat 35% off</b>
+                </div>
+            </div>
+            <!-- item-4  -->
+            <div class="card-box">
+                <img src="images/collectionimg4.png" alt="collections image">
+                <div class="card-small-box">
+                    <div class="flex">
+                        <h5>MIX452 Digital Watch</h5>
+                        <small>Super sale </small>
+                    </div>
+                    <div class="card-price">
+                        <box-icon name='rupee'></box-icon>
+                        <h6><del>5,536</del></h6>
+                        <h6>| 3,999</h6>
+                    </div>
+                </div>
+                <div class="card-offer">
+                    <b>Flat 35% off</b>
+                </div>
+            </div>
+            <!-- item-5  -->
+            <div class="card-box">
+                <img src="images/collectionimg5.png" alt="collections image">
+                <div class="card-small-box">
+                    <div class="flex">
+                        <h5>MIX452 Digital Watch</h5>
+                        <small>Super sale </small>
+                    </div>
+                    <div class="card-price">
+                        <box-icon name='rupee'></box-icon>
+                        <h6><del>5,536</del></h6>
+                        <h6>| 3,999</h6>
+                    </div>
+                </div>
+                <div class="card-offer">
+                    <b>Flat 35% off</b>
+                </div>
+            </div>
+            <!-- item-6  -->
+            <div class="card-box">
+                <img src="images/collectionimg2.png" alt="collections image">
+                <div class="card-small-box">
+                    <div class="flex">
+                        <h5>MIX452 Digital Watch</h5>
+                        <small>Super sale </small>
+                    </div>
+                    <div class="card-price">
+                        <box-icon name='rupee'></box-icon>
+                        <h6><del>5,536</del></h6>
+                        <h6>| 3,999</h6>
+                    </div>
+                </div>
+                <div class="card-offer">
+                    <b>Flat 35% off</b>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Shop  -->
+    <section id="shop" class="section-p">
+        <h1 class="section-heading"><span>a</span>dd to cart</h1>
+
+        <div class="cart-box flex">
+            <div class="cart-left">
+                <img src="images/cartimg.png" alt="cart-image">
+                <div id="cart-share">
+                    <a href="#"> <box-icon name='share-alt' color='#aca1a1'></box-icon></a>
+                </div>
+            </div>
+            <div class="cart-right">
+                <div class="flex">
+                    <h1>Apple Watch </h1>
+                    <p><a href="#"><img src="images/applecart.png" alt=""></a></p>
+                </div>
+                <p>Line of smartwatches created by Apple Inc.</p>
+                <ul>
+                    <li>watch Os</li>
+                    <li>Unprecedented Design</li>
+                    <li>Healthcare</li>
+                    <li>Unmatched Performance</li>
+                    <li>Embrace the Extraordinary</li>
+                    <li>Cutting-Edge Technology</li>
+                </ul>
+                <p class="cart-links"><a href="#">Shop</a>|<a href="#">buynewstrap</a>|<a href="#">Apple Inc</a>|<a
+                        href="#">buycase</a>
+                </p>
+                <div class="flex">
+                    <button>Add to cart</button>
+                    <box-icon name='heart' type='fill' color='#ff0000'></box-icon>
+
+                </div>
+            </div>
+        </div>
+        <!-- testimonal -->
+        <div class="carousel-container">
+            <h1 class="section-heading"><span>t</span>estimonials</h1>
+            <div class="carousel">
+                <div class="slide">
+                    <p>
+                        1.Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit natus laudantium voluptate
+                        soluta obcaecati quisquam itaque, minus m voluptate soluta obcaecati quisquam itaque, minus quam
+                        delectus temntium voluptate soluta obcaecati quisquam itaque, minus quameptipisicing elit. A
+                        odit natus laudantium voluptate soluta obcaecati quisquam itaque, minus quamuri commodi modi
+                        voluptatibus.
+                    </p>
+                </div>
+                <div class="slide">
+                    <p>2.Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit natus laudantium voluptate
+                        soluta obcaecati quisquam itaque, minus quam delectus temntium voluptate soluta obcaecati
+                        quisquam itaque, minus quamm voluptate soluta obcaecati quisquam itaque, minus quam delectus
+                        temntium voluptate soluta obcaecati quisquam itaque, minus quam delectus temporibus atque labore
+                        deleniti repellendus, cupiditate excepturi commodi modi voluptatibus.</p>
+                </div>
+                <div class="slide">
+                    <p>3.Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit natus laudantium voluptate
+                        soluta obcaecati quisquam itaque, minus quamipisicing elit. A odit natus laudantium m voluptate
+                        soluta obcaecati quisquam itaque, minus quam delectus temntium voluptate soluta obcaecati
+                        quisquam itaque, minus quamcaecati quisquam itaque, minus quam delectus temporibus atque labore
+                        deleniti repellendus, cupiditate excepturi commodi modi voluptatibus.</p>
+                </div>
+                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            </div>
+
+    </section>
+    <!-- figma  -->
+    <section id="figma" class="section-p">
+        <h1 class="section-heading"><span>f</span>igma</h1>
+        <div>
+            <img src="images/task2728.png" alt="task#278279desigenimage">
+            <img src="images/taskcolourpallette.png" alt="task#278279desigenimage">
+        </div>
+    </section>
+    <!-- contact  -->
+    <section id="contact" class="section-p">
+        <div class="contact flex">
+            <p>No,25 xxxxxxxx <br>
+                yyyyyyyyyyyyyy <br>
+                chennai channai 600000 </p>
+            <p>mobile :987654321 <br> phone: 044+54525252 <br> 24x7 <a href="#">coustmercare</a></p>
+            <p class="flex">follow us: <a href="#"><box-icon name='twitter' type='logo' color='#126edc'><a
+                            href=""></box-icon></a></box-icon> <box-icon name='instagram' type='logo'
+                    color='#c9490c'></box-icon></a> <a href="#"><box-icon name='facebook' type='logo'
+                        color='#2617c1'></box-icon></a></p>
+        </div>
+        <!-- map  -->
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6976.444639315478!2d80.23607038049647!3d13.055193825285853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52665d25ebc7ab%3A0x6216ab03f155ffaa!2sapple%20store%20in%20chennai!5e0!3m2!1sen!2sin!4v1687415029997!5m2!1sen!2sin"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form>
+            <h1 class="section-heading"><span>g</span>et in Touch</h1>
+            <div>
+                <input type="text" placeholder="Name" required> <br>
+                <small class="error">*This field Required</small>
+            </div>
+            <div>
+                <input type="email" placeholder="Email" required> <br>
+                <small class="error">*This field Required</small>
+            </div>
+            <div>
+                <textarea placeholder="Message" cols="30" rows="10"></textarea>
+            </div>
+            <button><box-icon name='send' type='solid' color='#080707'></box-icon></button>
+
+        </form>
+
+    </section>
+    <!-- footer  -->
+    <footer class="section-p">
+        <div><a href="#">Back to top &#8593;</a></div>
+        <div class="flex">
+            <ul class="flex">
+                <li><a href="#about">About</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="flex">
+                <li><a href="#"><box-icon name='twitter' type='logo' color='#126edc'></box-icon></a></li>
+                <li><a href="#"><box-icon name='instagram' type='logo' color='#c9490c'></box-icon></a></li>
+                <li><a href="#"><box-icon name='facebook' type='logo' color='#2617c1'></box-icon></a></li>
+            </ul>
+        </div>
+        <center>All © copyrights received Designed & Developed by <a href="">Karthik</a></center>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
