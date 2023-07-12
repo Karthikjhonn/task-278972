@@ -23,8 +23,12 @@ setInterval(()=>{
 },3000)
 
 // small devices menu
-function ismenuactive(){
-    document.querySelector("#navgation").classList.toggle("menuActive")
+function ismenuactive(){    
+    if(document.querySelector("#navgation").className == "menuActive"){
+      document.querySelector("#navgation").classList.remove("menuActive");
+    }else{
+      document.querySelector("#navgation").classList.add("menuActive");
+    }
 }
 // dark mode
 function dark() {

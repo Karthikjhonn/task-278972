@@ -14,11 +14,13 @@
 <body>
     <!-- header  -->
     <header>
-        <div id="logo">
-            <img src="images/tasklogo.png" alt="logo">
-        </div>
+        <a href="#">
+            <div id="logo">
+                <img src="images/Apple Logo.png" alt="logo">
+            </div>
+        </a>
         <nav>
-            <ul id="navgation">
+            <ul id="navgation" class="menuActive">
                 <li><a href="#about">About</a></li>
                 <li><a href="#collection">Collection</a></li>
                 <li><a href="#shop">Shop</a></li>
@@ -34,8 +36,34 @@
     </header>
     <!-- hero section  -->
     <section id="hero">
-        <img src="images/heroimg.png" alt="cover page" id="largeheroimg">
-        <img src="images/herosmall.png" alt="cover page" id="smallheroimg">
+        <!-- <img src="images/heroimg.png" alt="cover page" id="largeheroimg">
+        <img src="images/herosmall.png" alt="cover page" id="smallheroimg"> -->
+        <div class="flex">
+            <div class="hero-left">
+                <div><img src="images/heroimg-1.png" alt="Img"></div>
+                <p>Welcome to the world of Apple Watch, where cutting-edge technology meets sleek design and unparalleled functionality. Discover a whole new level of convenience, health tracking, and seamless connectivity right on your wrist. With its powerful features and intuitive interface, the Apple Watch is not just a timepiece; it's your ultimate companion for everyday life. <br>
+                    <a href="#about"><button>Explore More</button></a>
+                </p>
+            </div>
+            <div class="hero-right">
+                <div class="features">
+                    <img src="images/health-icon.png" alt="product-feature-icons">
+                <div class="over-lay">High and low <br> Heart rate notifications.<br>Blood Oxygen app  </div>
+                </div>
+                <div class="features">
+                    <img src="images/music -icon.png" alt="product-feature-icons">
+                <div class="over-lay">Over 100 million songs<br> Start listening for free today.</div>
+                </div>
+                <div class="features">
+                    <img src="images/phone-icon.png" alt="product-feature-icons">
+                <div class="over-lay">GPS + Cellular Available <br> 50 mm </div>
+                </div>
+                <div class="features">
+                    <img src="images/fitness-icon.png" alt="product-feature-icons">
+                <div class="over-lay">Water resistant 9<br> Cardio fitness notifications</div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- About section  -->
     <section id="about" class="section-p">
